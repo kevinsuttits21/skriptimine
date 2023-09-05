@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# skripti pohimote on valjastada kasutajale jargneva teksti: Tere, (kasutajanimi) !
+
+# Skript:
+username=$USER
+
+toiming=$(echo "${username^}")
+echo "Tere, $toiming !"
