@@ -27,3 +27,6 @@ git remote -v
 Kasutamine:
 g) faili saab lisada jalgimisele:
 git add failinimi
+
+h) git branch'i nime vahetamine
+git branch -m <vana nimi> <uus nimi>
