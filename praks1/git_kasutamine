@@ -30,3 +30,8 @@ git add failinimi
 
 h) git branch'i nime vahetamine
 git branch -m <vana nimi> <uus nimi>
+
+Lokaalse git repositooriumi lahtiuhendamine remote mainist
+
+i) git remote rm <kas origin voi repo nimi>
+voi ka rm -rf .git (repos)
