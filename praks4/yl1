@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# Antud skript kusib kasutaja kaest tema tais nime ja tervitab teda
+
+echo -n "Sisestage oma ees- ja perekonnanimi: "
+read eesnimi perenimi
+echo "Sinu eesnimi on ${eesnimi^} ja perekonnanimi on ${perenimi^}"
