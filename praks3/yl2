@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# Antud skripti eesmark on otsida var kataloogis kasutajale kattesaadavad .log lopuga failid, kontrollib mitu rida on igas leitud failis ning valjastab failide nimekirja, mis on sorteeritud kahanemisjarjekorras vastavalt ridade arvule"
+
+search_dir='/var/log'
+
+find "$search_dir" -depth -type f -name "*.log" -exec wc -L {} + | grep -v 'total' | sort -nr
