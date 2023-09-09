@@ -1,0 +1,17 @@
+#!/bin/bash
+
+# Antud skripti eesmark on valjastada kasutajale kuupaeva ja ajaga seotud info:
+
+kuupaev=$(date +%A)
+kuu=$(date +%B)
+paev=$(date +%d)
+aasta=$(date +%G)
+aeg=$(date +%R)
+echo "Today is ${kuupaev^}, ${kuu^} ${paev}, ${aasta}"
+echo "Time is ${aeg}"
+
+echo
+
+echo "Calendar of ${kuu^} ${aasta^}"
+
+cal | tail -n 7
