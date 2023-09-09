@@ -1,0 +1,19 @@
+#!/bin/bash
+
+# Antud skripti pohimote on olla abiks bussiekskursioonide korraldajale
+
+read -p "Sisestage mitu reisijat on grupis: " reisijad
+read -p "Sisestage kohtade arv bussis: " kohad
+
+# vaja on teada, mitu on taielikult taidetud ja mitu inimest on maha jaanud
+
+taidetud=$((kohad - reisijad)) # sellest oleneb kas on piisavalt palju, jai ule voi jai vahemaks
+
+if [ "$taidetud" -gt 0 ]; then
+    echo "Jäi üle nii palju kohti: $taidetud" # taidetud on positiivne arv
+else
+    vahetus=$(( -taidetud )) # muudame arvu positiivseks vastuse jaoks
+    echo "Puudulikuks jäi nii palju kohti: $vahetus " # taietud on negatiivne arv
+fi
+
+
