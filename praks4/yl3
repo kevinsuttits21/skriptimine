@@ -1,0 +1,18 @@
+#!/bin/bash
+
+# Antud skripti pohimote on arvutada EAP-itest soltuvaid uhe nadala ajakulu
+
+# kusimused
+echo -n "Sisestage ainepunktide arv: "
+read ainepunktid # 1 EAP == 26 h
+echo -n "Sisestage nädalate arv: "
+read nadalad # 1 nadal == 7 paeva
+
+# arvutamine
+# uhikud on tundides (h)
+
+tunnid_kokku=$((ainepunktid * 26))
+
+ajakulu=$((tunnid_kokku / nadalad))
+aeg=$((ajakulu + 1 ))
+echo $aeg
