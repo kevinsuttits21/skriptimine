@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# Antud skripti eesmark on valjastada mitu paeva antud hetkel masin on tool olnud
+
+uptimes=`uptime | awk '{print $1}'`
+echo -n `hostname`
+echo -n " has been been up since "
+echo -n "${uptimes}"
+echo -n " for "
+toiming=`uptime | awk '{print $3}'`
+echo "$toiming days"
