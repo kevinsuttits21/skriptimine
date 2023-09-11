@@ -6,7 +6,7 @@ read -p "Sisestage oma nimi: " nimi
 
 echo "Tere tulemast, ${nimi^}!"
 
-read -p "Sisestage oma sünnipäev: " sunnipaev
+read -p "Sisestage oma sünniaasta: " sunnipaev
 
 praegune_aasta=$(date +%Y)
 
