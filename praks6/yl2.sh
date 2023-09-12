@@ -8,7 +8,7 @@ read -p "Sisestage kohtade arv bussis: " kohad # valitud arv on vaartusena 1 bus
 
 busse=$((reisijad / kohad)) # jagame inimesed busside vahel ara
 if [ $((reisijad % kohad)) -eq 0 ]; then # % aitab jaagi ules leida
-    echo "Kohad on täidetud!"
+    a=a
 else
     busse=$((busse + 1))
 fi
