@@ -6,7 +6,14 @@
 failid=0
 lingid=0
 kataloogid=0
-
+read -p "Sisestage kataloogi kogu nimi: " asukoht
+# kontrollime asukohta ja siis liigume kui saab
+if [ -d "$asukoht" ]; then
+     cd "$asukoht" # siis liigume edasi
+else
+    echo "Antud asukoht ei ole olemas!"
+    exit # lahkume 
+fi
 # leiame koik asjad
 for i in *
 do
