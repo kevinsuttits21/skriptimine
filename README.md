@@ -18,7 +18,7 @@ Windowsis on võimalik bash scripte käivitada WSL-i abil.
 
 Siin saad abi sellega, kuidas  installeerida WSL-i oma Windows masinale: https://github.com/MicrosoftDocs/wsl/blob/main/WSL/install-manual.md
 
-# Praktikumid (Bash skriptid)
+## Praktikumid (Bash skriptid)
 ### praks1
 * [__git_kasutamine__] (https://github.com/kevinsuttits21/skriptimine/blob/main/praks1/git_kasutamine) - Test fail, mida tehti git remote abil.
 
