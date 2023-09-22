@@ -19,7 +19,35 @@ Windowsis on võimalik bash scripte käivitada WSL-i abil.
 
 Siin saad abi sellega, kuidas  installeerida WSL-i oma Windows masinale: https://github.com/MicrosoftDocs/wsl/blob/main/WSL/install-manual.md
 
-## Praktikumid (Bash skriptid)
+# Mõned näidistulemused skriptidest:
+
+Sisestage suvaline täisarv: 123
+
+Arvu 123 numbrite summa on 6.
+
+--------------------------------
+
+Sisestage suvaline arv: 5
+
+Antud arv on algarv.
+
+--------------------------------
+
+Sisestage suvaline täisarv: 3
+
+Antud arv on paaritu.
+
+
+--------------------------------
+
+Sisestage reisijate arv: 100
+
+Sisestage kohtade arv bussis: 40
+
+Kokku on vaja 3 täisbussi.
+
+
+# Praktikumid (Bash skriptid)
 ### praks1
 * [__git_kasutamine__](https://github.com/kevinsuttits21/skriptimine/blob/main/praks1/git_kasutamine) - Test fail, mida tehti git remote abil.
 
