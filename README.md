@@ -9,7 +9,8 @@ Skripte saad käivitada näiteks nii, et kopeerid skripti sisu oma Linux masinas
 Käsus on mainitud põhimõtteliselt terve asukoht, kus skript asub. Kui seda käsku kasutada, siis on skript käivitatud.
 
 Saab ka teha nii, et laed skriptid ise alla oma Linux masinasse ja siis käivitad oma valikul skripti/skripte.
-Võimalik on ka nii, et faili ei saa kasutada, seega pead sisestama järgmist käsku, et käivitamisõigusi anda endale:
+
+Võimalik on ka nii, et oma tehtud faili või alla laetud faili ei saa kasutada, seega pead sisestama järgmist käsku, et käivitamisõigusi anda endale:
 ```
 chmod u+x (skripti täisasukoht või kui oled seal kataloogis juba, siis ainult skripti nimi)
 ```
