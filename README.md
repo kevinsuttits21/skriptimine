@@ -66,7 +66,7 @@ Kokku on vaja 3 täisbussi.
 * [__yl3__](https://github.com/kevinsuttits21/skriptimine/blob/main/praks4/yl3) - Antud skript küsib ainepunktide arvu ja nädalate arvu, arvutab ja väljastab kasutajale ühe nädala eeldatava ajakulu.
 * [__yl4__](https://github.com/kevinsuttits21/skriptimine/blob/main/praks4/yl4) - Antud skript küsib mitu reisijat on kokku ja mitu kohta on bussis. Tulemusena väljastatakse, mitu kohti jäi üle või mitu puudulikuks jäi.
 
-## praks4a
+### praks4a
 * [__yl1.sh__](https://github.com/kevinsuttits21/skriptimine/blob/main/praks4a/yl1.sh) - Antud skript küsib kasutaja käest nime ja sünniaastat ja väljastab tema nime koos tema vanusega.
 * [__yl2.sh__](https://github.com/kevinsuttits21/skriptimine/blob/main/praks4a/yl2.sh) - Antud skript arvutab ringi pindalat ja ümbermõõtu kasutaja antud parameetritega.
 * [__yl3.sh__](https://github.com/kevinsuttits21/skriptimine/blob/main/praks4a/yl3.sh) - Antud skript teeb backup'i mingisugusest kasutaja poolt sisestatud kataloogist ja sellest olenevatest failidest. Samuti saab kasutaja valida kuhu backup panna.
